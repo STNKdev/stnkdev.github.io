@@ -5,13 +5,19 @@ $(document).ready(function(){
 		infinite: false
 	});
 
+	$('.message').on('click', function(){
+		alert('Вы написали (условно)');
+	});
+
 	$('.description-container span').on('click', function(){
 		if ($('.description-container span').data('expand')) {
 			$('.description-container span').data('expand', false);
 			$('.description').css('max-height', '100px');
+			$('.description-container span').html('показать полностью');
 		} else {
 			$('.description-container span').data('expand', true);
 			$('.description').css('max-height', 'none');
+			$('.description-container span').html('скрыть');
 		}
 	});
 
