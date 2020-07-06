@@ -4,6 +4,16 @@
 	padding: 0;
 }
 
+html, body {
+height: 100%;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
 	text-decoration: none;
 }
@@ -12,11 +22,13 @@ a:visited {
 	color: inherit;
 }
 
+/*
 header, footer, .container {
 	max-width: 500px;
 	margin: 0 auto;
 	padding: 5px;
 }
+*/
 
 .greeting-link {
 	text-align: center;
