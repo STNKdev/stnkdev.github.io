@@ -1,1 +1,1 @@
-# stnkdevelopment.github.io
+# stnkdev.github.io
